@@ -1,4 +1,4 @@
-# Counterfactual Uplift Modeling
+# Counterfactual-Based Uplift Modeling
 
 This repository provides a research implementation for training and evaluating
 uplift models with counterfactual treatment generation. It supports standard
