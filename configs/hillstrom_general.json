@@ -1,0 +1,7 @@
+{
+  "mode": "multi_general",
+  "dataset": {"name": "hillstrom", "path": "data/scikit-uplift-data/hillstorm_no_indices.csv.gz", "outcome_col": "visit"},
+  "advanced": {"control": 0},
+  "experiment": {"outcome_type": "binary", "counterfactual_folds": 10, "nuisance_folds": 2, "output_dir": "outputs/hillstrom_general", "seed": 42,
+    "cf": {"lambda_gain": 5.0, "n_candidates": 100, "exclude_original": true, "target": "predicted"}}
+}

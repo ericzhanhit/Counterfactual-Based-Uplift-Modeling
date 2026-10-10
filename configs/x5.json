@@ -1,0 +1,5 @@
+{
+  "mode": "binary",
+  "dataset": {"name": "x5", "clients_path": "data/scikit-uplift-data/clients.csv.gz", "train_path": "data/scikit-uplift-data/uplift_train.csv.gz", "purchases_path": "data/scikit-uplift-data/purchases.csv.gz"},
+  "experiment": {"outcome_type": "binary", "counterfactual_folds": 10, "nuisance_folds": 2, "output_dir": "outputs/x5"}
+}

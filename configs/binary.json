@@ -1,0 +1,11 @@
+{
+  "mode": "binary",
+  "dataset": {"name": "synthetic", "n_samples": 10000, "n_features": 10},
+  "experiment": {
+    "outcome_type": "continuous", "learners": ["DT"],
+    "estimators": ["SL", "TL", "XL", "DML", "DRL"], "variants": ["benchmark", "cf"],
+    "counterfactual_folds": 10, "test_size": 0.3, "seed": 42, "n_bins": 10,
+    "output_dir": "outputs/synthetic", "nuisance_folds": 2,
+    "cf": {"method": "manuscript_random_search", "n_candidates": 100, "lambda_gain": 1.0, "exclude_original": true, "target": "predicted"}
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "mode": "binary",
+  "dataset": {"name": "megafon", "path": "data/scikit-uplift-data/megafon_dataset.csv.gz"},
+  "experiment": {"outcome_type": "binary", "counterfactual_folds": 10, "nuisance_folds": 2, "output_dir": "outputs/megafon"}
+}

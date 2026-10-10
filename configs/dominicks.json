@@ -1,0 +1,6 @@
+{
+  "mode": "continuous_reproduction",
+  "dataset": {"name": "dominicks", "path": "data/Dominick_oj_large.csv"},
+  "advanced": {"binarization": "train_median"},
+  "experiment": {"outcome_type": "continuous", "counterfactual_folds": 10, "nuisance_folds": 2, "output_dir": "outputs/dominicks_median_proxy", "seed": 42}
+}

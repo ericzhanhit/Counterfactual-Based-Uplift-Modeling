@@ -1,0 +1,6 @@
+{
+  "mode": "multi_reproduction",
+  "dataset": {"name": "hillstrom", "path": "data/scikit-uplift-data/hillstorm_no_indices.csv.gz", "outcome_col": "visit"},
+  "advanced": {"control": 0},
+  "experiment": {"outcome_type": "binary", "counterfactual_folds": 10, "nuisance_folds": 2, "output_dir": "outputs/hillstrom_reproduction", "seed": 42}
+}

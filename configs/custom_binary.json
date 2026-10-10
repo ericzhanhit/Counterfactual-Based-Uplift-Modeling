@@ -1,0 +1,5 @@
+{
+  "mode": "binary",
+  "dataset": {"name": "csv", "path": "data/prepared.csv", "treatment_col": "treatment", "outcome_col": "outcome", "drop_columns": ["customer_id"]},
+  "experiment": {"outcome_type": "binary", "counterfactual_folds": 10, "nuisance_folds": 2, "seed": 42, "output_dir": "outputs/custom"}
+}

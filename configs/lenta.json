@@ -1,0 +1,5 @@
+{
+  "mode": "binary",
+  "dataset": {"name": "lenta", "path": "data/scikit-uplift-data/lenta_dataset.csv.gz"},
+  "experiment": {"outcome_type": "binary", "counterfactual_folds": 10, "nuisance_folds": 2, "output_dir": "outputs/lenta"}
+}
